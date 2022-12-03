@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
+* {
+    
+}
+
 body{
     font-family: 'Poppins', sans-serif;
     margin:0;
@@ -38,6 +42,7 @@ nav {
 h1 {
     font-size: 48px;
     font-weight: bolder;
+    margin: 0px;
 }
 
 #home {
@@ -46,16 +51,97 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: calc(100vh - 110px);
+    min-height: calc(100vh - 110px);
+    padding: 32px;
 }
 
 #home img {
-    width:400px;
+    width:600px;
     border-radius: 16px;
     object-fit: cover;
 }
 
 #home button {
-    color: #3882F6;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border-radius: 8px;
+    font-weight: bold;
+    padding: 8px 24px;
+    border-style: none;
+    font-size: 1.2rem;
+}
 
+.home-container {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:48px;
+}
+
+#home .left-side , #home .right-side {
+    width: 40vw;
+}
+
+#why-odin {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+#why-odin h2 {
+    font-size: 32px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.fig-item-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+figure {
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+    color:#1F2937;
+    max-width: 300px
+}
+
+figure img {
+    max-width: 300px;
+    min-height: 300px;
+    object-fit: cover;
+    border-radius: 24px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(39, 185, 71);
+    margin-bottom: 8px;
+}
+
+#quote {
+    background-color: #E5E7EB;
+    color:#1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+    padding: 48px;
+}
+
+#quote footer {
+    display: flex;
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: bold;
+    font-style: normal;
+    margin: 0 0 0 auto;
+    justify-content: flex-end;
+    
 }
