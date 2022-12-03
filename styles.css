@@ -62,7 +62,7 @@ h1 {
     align-items: center;
 
     min-height: calc(100vh - 110px);       /*full viewport height */
-    padding: 72px;
+    padding: 96px;                         /* not applied - but good for    hero padding */
 }
 
 .home-container {
